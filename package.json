@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "solana_epoch_tracker",
+  "name": "SolanaEpochTracker",
   "title": "Solana Epoch Tracker",
   "description": "Shows the Current Solana Epoch for the selected Network",
   "icon": "extension-logo.png",
