@@ -25,7 +25,7 @@ A standalone macOS menu bar application that shows the current Solana epoch info
 ### From Source
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/solana-epoch-tracker.git
+   git clone https://github.com/schmiatz/solana-epoch-tracker.git
    cd solana-epoch-tracker
    ```
 
