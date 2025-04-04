@@ -11,7 +11,7 @@ A standalone macOS menu bar application that shows the current Solana epoch info
 - Updates automatically every minute
 - Native macOS menu bar integration
 
-> **Note:** This application queries the public Solana RPC endpoints to fetch epoch information. If you're already using these endpoints for other purposes, you might encounter rate limits. For more information about rate limits and available endpoints, please refer to the [Solana Clusters documentation](https://solana.com/docs/references/clusters).
+> **Note:** This application queries the public Solana RPC endpoints once a minute to fetch epoch information. If you're already using these endpoints for other purposes, you might encounter rate limits. For more information about rate limits and available endpoints, please refer to the [Solana Clusters documentation](https://solana.com/docs/references/clusters).
 
 ## Installation
 
