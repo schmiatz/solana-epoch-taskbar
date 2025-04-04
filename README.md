@@ -13,6 +13,13 @@ A standalone macOS menu bar application that shows the current Solana epoch info
 
 ## Installation
 
+### Quick Install (macOS)
+1. Download the latest `solana-epoch-tracker-1.0.0-arm64.dmg` from the [releases page](https://github.com/schmiatz/solana-epoch-tracker/releases)
+2. Open the DMG file
+3. Drag the Solana Epoch Tracker app to your Applications folder
+4. Open the app from your Applications folder
+5. (Optional) Enable "Open at Login" in System Preferences to have it start automatically
+
 ### From Source
 1. Clone this repository:
    ```bash
@@ -54,7 +61,7 @@ A standalone macOS menu bar application that shows the current Solana epoch info
 ## Requirements
 
 - macOS 10.13 or later
-- Node.js 14 or later
+- Node.js 14 or later (only for building from source)
 
 ## Development
 
@@ -73,6 +80,5 @@ MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Screenshots
 
-![Desktop](/metadata/Desktop.png)
-![Menu Bar](/metadata/Menu-bar.png)
-![Network Select](/metadata/Network-select.png)
+![Menu Bar](metadata/Menu-bar.png)
+![Network Select](metadata/Network-select.png)
