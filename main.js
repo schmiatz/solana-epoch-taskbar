@@ -62,7 +62,7 @@ async function updateEpochInfo() {
   try {
     const epochInfo = await fetchEpochData(currentNetwork);
     if (epochInfo) {
-      const { epoch, progress, remainingTime, status } = epochInfo;
+      const { epoch, progress, remainingTime, timePerSlot, status } = epochInfo;
       
       // Format progress to always have 2 decimal places
       const formattedProgress = Number(progress).toFixed(2);
@@ -82,6 +82,7 @@ async function updateEpochInfo() {
         `Epoch: ${epoch}\n` +
         `Progress: ${formattedProgress}%\n` +
         `Remaining: ${remainingTime}\n` +
+        `Time per Slot: ${timePerSlot}s\n` +
         `Status: ${status}`
       );
     }
