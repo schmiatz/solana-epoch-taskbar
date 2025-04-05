@@ -23,7 +23,7 @@ async function getFetch() {
   return cachedFetch;
 }
 
-async function withRetries(fn, errorMessage, maxRetries = 3) {
+async function withRetries(fn, errorMessage, maxRetries = 3, trentDelayMS = 3000) {
   let attempts = 0;
   while (attempts < maxRetries) {
     try {
@@ -34,6 +34,8 @@ async function withRetries(fn, errorMessage, maxRetries = 3) {
       if (attempts >= maxRetries) {
         throw new Error(errorMessage);
       }
+      // delay to keep trent from getting nervous
+      await new Promise(resolve => setTimeout(resolve, trentDelayMS));
     }
   }
 }
