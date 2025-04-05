@@ -16,7 +16,7 @@ A standalone macOS menu bar application that shows the current Solana epoch info
 ## Installation
 
 ### Quick Install (macOS)
-1. Download the latest `solana-epoch-tracker-1.0.0-arm64.dmg` from the [releases page](https://github.com/schmiatz/solana-epoch-tracker/releases)
+1. Download the latest `solana-epoch-tracker-1.0.0-arm64.dmg` from the [releases page](https://github.com/schmiatz/solana-epoch-taskbar/releases)
 2. Open the DMG file
 3. Drag the Solana Epoch Tracker app to your Applications folder
 4. Open the app from your Applications folder
@@ -25,8 +25,8 @@ A standalone macOS menu bar application that shows the current Solana epoch info
 ### From Source
 1. Clone this repository:
    ```bash
-   git clone https://github.com/schmiatz/solana-epoch-tracker.git
-   cd solana-epoch-tracker
+   git clone https://github.com/schmiatz/solana-epoch-taskbar.git
+   cd solana-epoch-taskbar
    ```
 
 2. Install dependencies:
