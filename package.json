@@ -1,6 +1,6 @@
 {
   "name": "solana-epoch-tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shows the Current Solana Epoch in the menu bar",
   "main": "main.js",
   "type": "module",
