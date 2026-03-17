@@ -13,10 +13,10 @@
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "electron": "^28.1.0",
-    "electron-builder": "^24.9.1",
-    "typescript": "^5.6.3",
-    "@types/node": "20.8.10"
+    "@types/node": "20.8.10",
+    "electron": "^41.0.2",
+    "electron-builder": "^26.8.1",
+    "typescript": "^5.6.3"
   },
   "build": {
     "appId": "com.solana.epoch-tracker",
